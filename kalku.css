@@ -1,0 +1,82 @@
+*{
+    background-color: seashell;    
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: saddlebrown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    
+}
+.container{
+    width: 350px;
+    background-color: antiquewhite;
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 10px;
+
+}
+
+#kalkulator{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    border: solid 1px #cecece;
+    background-color:aliceblue;
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 7px 5px;
+    text-align: right;
+    outline: none;
+}
+
+.kalkulator-tombol{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tombol {
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    height: 85px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #cecece;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.tombol:nth-child(4n+1) {
+    border-left: 1px solid #cecece;
+}
+
+.tombol:hover {
+    background: grey;
+    cursor: pointer;
+}
+
+#nol{
+    flex-grow: 1;
+}
+
+.operator{
+    background: gainsboro;
+}
+
+#hitung{
+    background: goldenrod;
+}
+
+#hitung:hover{
+    background: rgb(121, 90, 13);
+}
